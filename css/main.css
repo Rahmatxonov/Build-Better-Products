@@ -84,6 +84,12 @@ header {
   font-size: 14px;
   line-height: 25px;
   color: rgba(18, 17, 39, 0.7215686275);
+  transition: 0.2s ease;
+}
+.navbar__menu__link:hover {
+  font-weight: 600;
+  color: #444BD3;
+  cursor: pointer;
 }
 .navbar__span {
   display: flex;

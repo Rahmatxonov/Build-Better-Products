@@ -55,6 +55,12 @@ header {
             font-size: 14px;
             line-height: 25px;
             color: $primary_color;
+            transition: 0.2s ease;
+        }
+        &__link:hover {
+            font-weight: 600;
+            color: $button-color;
+            cursor: pointer;
         }
     }
     &__span {

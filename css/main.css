@@ -11,10 +11,10 @@ body {
 }
 
 .container {
-  max-width: 1168px;
+  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 @font-face {
@@ -59,7 +59,17 @@ header {
     max-width: 545px;
     width: 100%;
     font-size: 45px;
+    font-weight: 700;
     line-height: 56px;
+  }
+}
+@media (max-width: 576px) {
+  .hero__title {
+    max-width: 450px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
   }
 }
 .hero__text {
@@ -71,6 +81,15 @@ header {
   margin: 0 auto;
   margin-top: 8px;
   margin-bottom: 24px;
+}
+@media (max-width: 760px) {
+  .hero__text {
+    max-width: 450px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 .hero__span {
   max-width: 262px;

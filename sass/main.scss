@@ -13,10 +13,10 @@ body {
 @import './all-blocks/varibles';
 @import './all-blocks/mixins';
 .container {
-    max-width: 1168px;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 30px;
 }
 
 @import './all-blocks/fonts';

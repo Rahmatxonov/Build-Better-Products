@@ -2,7 +2,12 @@ header {
     background: radial-gradient(circle, rgba(255, 255, 255, 0.7233018207282913) 0%, rgba(201, 224, 251, 1) 71%, rgba(104, 106, 222, 0.5720413165266107) 100%);
     height: 130vh;
     @include for-tablet {
-        background-color: ;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.7233018207282913) 0%, rgba(201, 224, 251, 1) 71%, rgba(104, 106, 222, 0.5720413165266107) 100%);
+        background-size: contain;
+    }
+    @include for-phone {
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.7233018207282913) 0%, rgba(201, 224, 251, 1) 71%, rgba(104, 106, 222, 0.5720413165266107) 100%);
+        background-size: contain;
     }
 }
 
@@ -16,6 +21,12 @@ header {
         font-size: 56px;
         line-height: 67px;
         margin: 0 auto;
+        @include for-tablet {
+            max-width: 545px;
+            width: 100%;
+            font-size: 45px;
+            line-height: 56px;
+        }
     }
     &__text {
         max-width: 550px;
@@ -36,8 +47,9 @@ header {
     }
     &__img {
         margin-top: 30px;
-        width: 936px;
-        height: 585px;
+        max-width: 936px;
+        width: 100%;
+        max-height: 585px;
     }
 }
 
@@ -51,6 +63,12 @@ header {
         align-items: center;
         column-gap: 48px;
         max-width: 200px;
+        @include for-tablet {
+            display: none;
+        }
+        @include for-phone {
+            display: none;
+        }
         &__link {
             text-decoration: none;
             text-transform: capitalize;
@@ -70,6 +88,9 @@ header {
         display: flex;
         align-items: center;
         column-gap: 20px;
+        @include for-phone {
+            display: none;
+        }
     }
     &__btn__watch-demo {
         font-weight: 500;

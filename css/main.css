@@ -98,6 +98,14 @@ header {
   column-gap: 20px;
   margin: 0 auto;
 }
+@media (max-width: 576px) {
+  .hero__span {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+  }
+}
 .hero__img {
   margin-top: 30px;
   max-width: 936px;

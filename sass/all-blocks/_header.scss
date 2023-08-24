@@ -59,6 +59,12 @@ header {
         align-items: center;
         column-gap: 20px;
         margin: 0 auto;
+        @include for-phone {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            row-gap: 10px;
+        }
     }
     &__img {
         margin-top: 30px;

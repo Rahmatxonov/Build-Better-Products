@@ -52,6 +52,9 @@ header {
             font-size: 18px;
             line-height: 30px;
         }
+        @include for-phone {
+            max-width: 280px;
+        }
     }
     &__span {
         max-width: 262px;

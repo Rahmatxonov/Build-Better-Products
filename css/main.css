@@ -587,7 +587,7 @@ header {
 }
 @media (max-width: 670px) {
   .section2__info__span {
-    padding: 10px 50px 0 50px;
+    padding: 10px 10px 0 50px;
     text-align: center;
   }
 }
@@ -610,7 +610,7 @@ header {
 }
 @media (max-width: 670px) {
   .section2__info__p {
-    padding: 10px 50px 0 50px;
+    padding: 10px 10px 0 50px;
     text-align: center;
   }
 }

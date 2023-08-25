@@ -228,12 +228,20 @@ header {
 .navbar__add {
   display: none;
 }
+<<<<<<< HEAD
 @media (max-width: 1025px) {
+=======
+@media (max-width: 760px) {
+>>>>>>> 4c9b8fb5b4b28d8dc5637c20ad9ee4688dafdbb3
   .navbar__add {
     display: block;
   }
 }
+<<<<<<< HEAD
 @media (max-width: 670px) {
+=======
+@media (max-width: 576px) {
+>>>>>>> 4c9b8fb5b4b28d8dc5637c20ad9ee4688dafdbb3
   .navbar__add {
     display: block;
   }

@@ -9,7 +9,10 @@
   padding: 0 20px;
 }
 body {
-  // overflow-x: hidden;
+  overflow-x: hidden;
+}
+.section-2 {
+  margin-top: 200px;
 }
 .records {
   margin-top: 96px;
@@ -56,15 +59,14 @@ body {
     border-radius: 8px;
     color: white;
   }
-  &__img {
-  }
+
   .line {
     margin-top: 72px;
     border: 1px solid rgba(18, 17, 39, 0.12);
   }
 }
 .text {
-  margin-top: 72px;
+  margin-top: 140px;
   color: #121127;
   text-align: center;
   font-family: Poppins;
@@ -77,7 +79,7 @@ body {
   display: flex;
   gap: 87px;
   justify-content: center;
-  margin-top: 48px;
+  margin-top: 68px;
 }
 .second-question {
   margin-top: -100px;
@@ -103,7 +105,10 @@ body {
 }
 
 .questions {
-  margin-top: 172px;
+  margin-top: 102px;
+  &__first {
+    text-align: center;
+  }
   &__tittle {
     color: #121127;
     // text-align: center;

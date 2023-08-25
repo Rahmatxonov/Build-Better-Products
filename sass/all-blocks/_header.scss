@@ -89,7 +89,7 @@ header {
         column-gap: 48px;
         max-width: 200px;
         @include for-tablet {
-            display: none;
+            display: flex;
             flex-direction: column;
             position: absolute;
             top: 80px;
@@ -101,20 +101,23 @@ header {
             padding: 30px 0 0 26px;
             row-gap: 25px;
             transform: translateX(100%);
+            visibility: hidden;
             transition: 0.2s ease;
         }
         @include for-phone {
+            display: flex;
             flex-direction: column;
             position: absolute;
             top: 80px;
-            right: 0;
+            right: -30px;
             background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(201, 224, 251, 1) 71%, rgba(104, 106, 222, 0.993) 100%);
             height: 100vh;
             max-width: 320px;
             width: 100%;
             padding: 30px 0 0 26px;
             row-gap: 25px;
-            transform: translateX(100%);
+            transform: translateX(120%);
+            visibility: hidden;
             transition: 0.2s ease;
         }
         &__link {
@@ -194,4 +197,5 @@ header {
 
 .show {
     transform: translateX(0);
+    visibility: visible;
 }

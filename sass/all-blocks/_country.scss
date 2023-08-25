@@ -16,6 +16,14 @@
         font-weight: 700;
         line-height: 140%;
         margin-bottom: 8px;
+        @include for-tablet {
+            font-size: 34px;
+            line-height: 60px;
+        }
+        @include for-phone {
+            font-size: 28px;
+            line-height: 40px;
+        }
     }
     &__text {
         max-width: 734px;
@@ -42,6 +50,15 @@
         position: absolute;
         top: 245px;
         left: 100px;
+        @include for-tablet {
+            position: unset;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
         &__span {
             &__title {
                 max-width: 110px;

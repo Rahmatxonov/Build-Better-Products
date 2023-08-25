@@ -102,7 +102,7 @@ header {
             row-gap: 25px;
             transform: translateX(100%);
             visibility: hidden;
-            transition: 0.2s ease;
+            transition: 0.5s ease-in;
         }
         // @include for-phone {
         //     display: flex;
@@ -152,7 +152,7 @@ header {
         background-color: $button-color;
         border: 1px solid transparent;
         border-radius: 7px;
-        transition: 0, 2s ease;
+        transition: 0, 2s easa;
     }
     &__btn__watch-demo:hover {
         background-color: $white-color;
